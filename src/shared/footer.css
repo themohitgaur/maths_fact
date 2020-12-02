@@ -1,0 +1,38 @@
+.footer {
+  margin-bottom: 0px;
+  background-color: wheat;
+  color:black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .fa-github {
+        background: white;
+        color: black;
+      }

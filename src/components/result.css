@@ -1,0 +1,30 @@
+.content{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    height: auto;
+    margin-left: 522px;
+}
+.roll-in-blurred-left {
+	-webkit-animation: roll-in-blurred-left 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: roll-in-blurred-left 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+@media screen and (max-width: 992px) {
+    #content{
+        width:75%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 20px;
+    height: auto;
+    }
+  }
